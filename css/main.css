@@ -19,29 +19,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 /******************************************************************************
  * WATS1010: Introduction to Web Development
@@ -55,7 +32,19 @@ table {
  }
 
  header {
- 	background-color: red;
+ 	background-image: url(../img/official_header.jpg);
+ 	background-size: cover;
+ 	height: 300px;
+ 	width: 100%;
+ 	margin: 0 auto;
+ }
+
+ nav {
+ 	background-color: #FAFAFA;
+ 	height: 30px;
+ 	width: 100%;
+ 	box-shadow: 0 0 4px 2px #15151E;
+ 	margin-top: 240px;
  }
 
  .main-nav li {
@@ -66,12 +55,13 @@ table {
  	text-align: center;
  }
 
-
+/
 aside {
 	background-color: blue;
-	width: 10%;
+	width: 20%;
 	height: 200px;
-	float: left;
+	top: 100px;
+	right: 0px;
 	position: fixed;
 }
 
