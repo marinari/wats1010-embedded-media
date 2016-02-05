@@ -1,3 +1,48 @@
+/* CSS Reset styles for all browsers*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /******************************************************************************
  * WATS1010: Introduction to Web Development
  * Embedded Media Assignment
@@ -6,5 +51,53 @@
  *****************************************************************************/
 
  html {
-     color: green;
+     color: black;
  }
+
+ header {
+ 	background-color: red;
+ }
+
+ .main-nav li {
+ 	display: inline;
+ 	list-style-type: none;
+ 	border-right: 1px solid white;
+ 	padding: 10px;
+ 	text-align: center;
+ }
+
+
+aside {
+	background-color: blue;
+	width: 10%;
+	height: 200px;
+	float: left;
+	position: fixed;
+}
+
+.social-links li {
+	list-style-type: none;
+}
+
+#watch {
+	width: 100%;
+	height: 1200px;
+	background-color: #cef;
+}
+
+#listen {
+	width: 100%;
+	height: 1200px;
+	background-color: gray;
+}
+
+#about {
+	width: 100%;
+	height: 1200px;
+	background-color: orange;
+}
+
+footer {
+	width: 100%;
+	height: 40px;
+}
