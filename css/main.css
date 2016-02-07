@@ -32,18 +32,19 @@ time, mark, audio, video {
  }
 
  header {
- 	background-image: url(../img/official_header.jpg);
+ 	background-image: url(../img/monkaa_title.jpg);
+ 	background-position: center;
  	background-size: cover;
- 	height: 300px;
+ 	height: 400px;
  	width: 100%;
  	margin: 0 auto;
  }
 
  .top-nav {
- 	background-color: #FAFAFA;
+ 	background-color: #FDD0BD;
  	height: 30px;
  	width: 100%;
- 	box-shadow: 0 0 4px 2px #15151E;
+ 	box-shadow: 0 0 2px 2px #E5AD9E;
  }
 
 nav li {
@@ -54,11 +55,22 @@ nav li {
  	text-align: center;
  }
 
-aside {
-	background-color: blue;
+aside:hover {
+	background-color: rgb(83, 83, 101);
 	width: 20%;
 	height: 200px;
-	top: 100px;
+	top: 300px;
+	right: 0px;
+	position: fixed;
+	text-align: center;
+	color: white;
+}
+
+aside {
+	background-color: rgba(83, 101, 101, 0.5);
+	width: 10%;
+	height: 200px;
+	top: 300px;
 	right: 0px;
 	position: fixed;
 }
