@@ -100,7 +100,7 @@ aside:hover {
 	text-align: center;
 	color: white;
 	border: 2px dotted #E5AD9E;
-	transform: rotate(360deg);
+	transform: rotate(90deg);
 	transform-origin: left top 0;
 }
 
@@ -118,7 +118,7 @@ aside {
 
 #social h2 {
 	transition: 1s transform;
-	transform: rotate(-90deg);
+	transform: rotate(90deg);
 	transform-origin: left top 0;
 	font-family: 'Chelsea Market';
 	font-size: 120%;
