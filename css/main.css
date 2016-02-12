@@ -115,14 +115,20 @@ aside {
 	transition: 1s width;
 }
 
-
-#social:hover h2 {
+#social h2 {
 	transition: 1s transform;
-	transform: rotate(90deg);
+	transform: rotate(-90deg);
 	transform-origin: left top 0;
 	font-family: 'Chelsea Market';
 	font-size: 120%;
 }
+
+#social:hover h2 {
+	transition: 1s transform;
+	transform: rotate(90deg);
+}
+
+
 
 .social-links li {
 	list-style-type: none;
