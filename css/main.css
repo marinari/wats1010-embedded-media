@@ -116,7 +116,7 @@ aside {
 }
 
 
-#social:hover, h2 {
+#social:hover h2 {
 	transition: 1s transform;
 	transform: rotate(90deg);
 	transform-origin: left top 0;
