@@ -55,6 +55,10 @@ a:active {
     color: #1B8CEA;
 }
 
+header h1, header p {
+	z-index: -2;
+	position: absolute;
+}
 h2 {
 	font-family: 'Chelsea Market', serif;
 	font-size: 300%;
@@ -100,8 +104,6 @@ aside:hover {
 	text-align: center;
 	color: white;
 	border: 2px dotted #E5AD9E;
-	transform: rotate(90deg);
-	transform-origin: left top 0;
 }
 
 aside {
@@ -128,8 +130,6 @@ aside {
 	transform: rotate(0deg);
 	transform-origin: left top 0;
 }
-
-
 
 .social-links li {
 	list-style-type: none;
